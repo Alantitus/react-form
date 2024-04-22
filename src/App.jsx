@@ -165,7 +165,7 @@ function App() {
               />
             </div>
             {isAddressInvalid && (
-              <div className=" text-danger ">Invalid Address</div>
+              <div className=" text-danger  mt-2 ">Invalid Address</div>
             )}
             <div>
               <TextField
@@ -179,7 +179,7 @@ function App() {
               />
             </div>
             {isEmailInvalid && (
-              <div className=" text-danger ">Invalid Email</div>
+              <div className=" text-danger  mt-2">Invalid Email</div>
             )}
             <div>
               <TextField
@@ -193,7 +193,7 @@ function App() {
               />
             </div>
             {isMobileNumberInvalid && (
-              <div className=" text-danger ">
+              <div className=" text-danger  mt-2 ">
                 Invalid Mobile Number
               </div>
             )}
@@ -227,8 +227,9 @@ function App() {
                   label="Course"
                 >
                   <MenuItem value={20}>Biology</MenuItem>
-                  <MenuItem value={21}>Computer Science</MenuItem>
+                  <MenuItem value={21}>Humanities</MenuItem>
                   <MenuItem value={22}>Commerce</MenuItem>
+                  <MenuItem value={22}>Computer Science</MenuItem>
                 </Select>
               </FormControl>
             </div>
