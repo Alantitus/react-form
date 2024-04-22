@@ -1,0 +1,43 @@
+.page{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container{
+  width: 850px;
+  height: 570px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(232, 227, 227, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+  background-color: rgb(236, 234, 229);
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+.container-items{
+  width: 340px;
+  height: 400px;
+}
+.Details{
+  width: 100%;
+  height: auto;
+  display: flex;
+  
+}
+.Heading{
+  width: 150px;
+  height: 280px;
+}
+.fullname{
+  padding: 4px;
+}
+.fillers{
+  width: 330px;
+  
+}
+.content{
+  padding: 6.5px;
+}
