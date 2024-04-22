@@ -344,10 +344,12 @@ function App() {
                       {Course === 20
                         ? "Biology"
                         : Course === 21
-                        ? "Commerce"
-                        : Course === 22
                         ? "Humanities"
-                        : ""}
+                        : Course === 22
+                        ? "Commerce"
+                        : Course===23
+                        ?"Computer Science"
+                      :"" }
                     </h6>
                   </div>
                 </div>
